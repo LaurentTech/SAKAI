@@ -19,7 +19,7 @@ body {
   width: 406px;
   height: 384.69px;
   background-color: white;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1), -3px -3px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(0, 0, 0, 0.1);
 }
 
 img {
@@ -83,7 +83,7 @@ button {
   height: 32px;
   margin-bottom: 20px;
   left: 92px;
-  background-color: rgb(250, 187, 71);
+  background-color: #ffc300;
   border: none;
   border-radius: 3px;
   font-size: 15px;
@@ -92,7 +92,7 @@ button {
 a {
   font-size: 18px;
   margin-right: 10px;
-  opacity: 0.8;
+  color: rgb(93, 93, 252);
 }
 
 button:hover {
