@@ -548,8 +548,69 @@ th {
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
   background-color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: lighter;
 }
 
+.h3 {
+  opacity: 0.8;
+}
+
+.annoucement p {
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+#small {
+  font-size: 12px;
+  margin: 20px;
+  margin-top: 50px;
+  position: relative;
+  top: 10px;
+}
+label {
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+select {
+  height: 30px;
+  width: 90px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+::selection {
+  border: 2px solid black;
+  box-shadow: 0px 5px 5px cornflowerblue;
+}
+
+select::after {
+  box-shadow: 0px 2px 5px cornflowerblue;
+}
+.select {
+  rotate: 90deg;
+  position: relative;
+  left: 115px;
+  bottom: 14px;
+  height: 0.5px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.7);
+}
+#anounce-line {
+  margin: 10px;
+  width: 90%;
+  position: relative;
+  right: 10px;
+}
+.annoucement {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.view {
+  margin-left: 22px;
+}
 .bottom {
   width: 100%;
   height: 850px;
