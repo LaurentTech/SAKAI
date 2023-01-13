@@ -107,10 +107,13 @@ header .fa-star,
 
 .vertical {
   rotate: 90deg;
-  position: relative;
-  right: 450px;
-  top: 720px;
-  border: 1px solid ghostwhite;
+  position: absolute;
+  right: 240px;
+  top: 1025px;
+  width: 1780px;
+  height: 0.5px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.3);
 }
 
 aside {
@@ -121,17 +124,17 @@ aside {
 
 .container-under-sidebar {
   position: fixed;
-  width: 16.7%;
+  width: 16.2%;
   height: 60px;
   background-color: #0f2a7c;
-  top: 570px;
+  top: 565px;
 }
 
 #bottom-icon {
   position: relative;
   color: white;
   left: 180px;
-  top: 15px;
+  top: 20px;
 }
 
 .container-under-sidebar:hover {
@@ -142,7 +145,7 @@ aside {
 .side {
   position: relative;
   border: 1px solid black;
-  width: 220px;
+  width: 210px;
   display: flex;
   flex-direction: row;
   right: 5px;
@@ -262,7 +265,7 @@ header i {
 }
 .course6 {
   border: 1px solid #0f2a7c;
-  width: 190px;
+  width: 200px;
   height: 30px;
 }
 
@@ -297,7 +300,7 @@ header div:active {
 .left-container {
   position: absolute;
   width: 545px;
-  height: 720px;
+  height: 780px;
   border: 1px solid rgba(221, 170, 4, 0.2);
   right: 270px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2),
@@ -537,7 +540,7 @@ th {
 }
 .middle {
   width: 100%;
-  height: 19%;
+  height: 23.8%;
   margin-bottom: 10px;
   border: 1px solid rgba(221, 170, 4, 0.2);
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2),
@@ -549,9 +552,8 @@ th {
 
 .bottom {
   width: 100%;
-  height: 203%;
+  height: 850px;
   position: relative;
-  top: 165px;
   border: 1px solid rgba(221, 170, 4, 0.2);
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2),
     0px 2px 20px 0px rgba(0, 0, 0, 0.2);
@@ -598,11 +600,17 @@ footer {
   height: 100px;
   /* background-color: blueviolet; */
   width: 83.3%;
-  position: absolute;
-  left: 225px;
-  top: 1400px;
+  position: relative;
+  left: 218px;
+  top: 1280px;
 }
 
+.horizontal {
+  width: 1129px;
+  height: 0.5px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.3);
+}
 .plagy-check {
   display: flex;
   margin-top: 30px;
@@ -670,7 +678,7 @@ strong em {
   display: flex;
   justify-content: space-around;
   position: relative;
-  top: 50px;
+  top: 100px;
 }
 
 .faculty,
