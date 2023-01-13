@@ -298,6 +298,8 @@ header div:active {
     0px 2px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
+.right-btns:hover {
+}
 .top-left-header {
   display: flex;
   justify-content: space-between;
@@ -415,7 +417,7 @@ small {
 
 .control-link {
   position: absolute;
-  top: 24px;
+  top: 25px;
   margin-top: 5px;
   left: 387px;
 }
@@ -502,7 +504,7 @@ table {
 }
 
 .color {
-  background-color: rgba(250, 91, 91, 0.05);
+  background-color: rgba(250, 91, 91, 0.1);
 }
 
 .no-border {
